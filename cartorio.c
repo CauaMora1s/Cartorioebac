@@ -137,6 +137,7 @@ int main() {
 		printf("\t(1) Registrar nome\n");
 		printf("\t(2) Consultar os nomes\n");
 		printf("\t(3) Remover nome\n");
+		printf("\t(4) Sair do sistema.\n");
 		
 		//rodapé
 		printf("\nEsse Software é de livre uso.\n");
@@ -159,6 +160,10 @@ int main() {
 				
 			case 3:
 				remocao();
+				break;
+			case 4:
+				printf("Obrigado por usar.");
+				return 0;
 				break;
 			
 			default:
